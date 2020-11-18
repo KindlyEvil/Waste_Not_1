@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:background="@drawable/gradient_animation"
+    tools:context=".LogIn"
+    android:id="@+id/login_nl"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="NGO USER"
+        android:textColor="#482D80"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="411dp"
+        android:layout_height="245dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/h_logi_img"
+        android:layout_marginTop="15dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/colorPrimaryDark"
+        app:boxStrokeColor="@color/colorPrimary"
+
+
+        >
+        <EditText
+            android:id="@+id/email_logN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Id"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/design_default_color_error"
+        app:passwordToggleEnabled="true"
+
+        >
+    <EditText
+        android:id="@+id/pass_n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/loginNGO"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_round"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <ProgressBar
+        android:id="@+id/pro"
+        android:layout_width="83dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:visibility="gone">
+
+    </ProgressBar>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "238736501447",
+    "firebase_url": "https://wastenot-6c30e.firebaseio.com",
+    "project_id": "wastenot-6c30e",
+    "storage_bucket": "wastenot-6c30e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238736501447:android:f6f722df929ef00586ece2",
+        "android_client_info": {
+          "package_name": "com.example.waste_not"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238736501447-0v9jn39clbql0feirhc2lhsuukejpvrj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.waste_not",
+            "certificate_hash": "2d4c754e940e739d6935d2ab942224bb0606d750"
+          }
+        },
+        {
+          "client_id": "238736501447-9h0qkvrln04a9ac0k1oh04dmqk9ftt3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa0D0tX1EHjOkth4Bfkvf8g03YYmF7YJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238736501447-9h0qkvrln04a9ac0k1oh04dmqk9ftt3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

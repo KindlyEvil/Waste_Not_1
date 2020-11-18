@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:elevation="30dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    app:cardBackgroundColor="#00897B"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        >
+
+        <ImageView
+            android:id="@+id/hotelImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignEnd="@id/foodDes"
+            android:layout_marginTop="40dp"
+            android:src="@mipmap/hotel_image" />
+
+        <TextView
+            android:id="@+id/hotelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-149dp"
+            android:text="HotelName"
+            android:fontFamily="@font/aclonica"
+            android:textColor="#FFB300"
+            android:maxLines="1"
+            android:textSize="22sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="Food Description"
+            android:textColor="#CD0A0A"
+            android:fontFamily="cursive"
+            android:textSize="20sp"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:id="@+id/foodDes"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Description"
+            android:textAllCaps="false"
+            android:textColor="#FDF9FB"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="-27dp"
+            android:fontFamily="cursive"
+            android:maxLines="1"
+            android:text="CONTACT"
+            android:textColor="#FDD835"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
